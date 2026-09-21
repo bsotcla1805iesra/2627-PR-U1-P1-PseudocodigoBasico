@@ -1,0 +1,8 @@
+Inicio
+	Escribe "Introduzca un numero"
+	Lee num
+	Mientras num > 10 or num < 1 entonces
+		Escribe "Intentalo de nuevo"
+		Lee num
+	Escribe "Correcto!"
+Fin
