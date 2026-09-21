@@ -1,0 +1,15 @@
+Inicio
+	Escribe "Introduce un numero"
+	Lee num1
+	Escribe "Introduce otro numero"
+	Lee num2
+	Si
+		num1>num2
+		numIni = num2
+		numFin = num1
+	Sino
+		numIni = num1
+		numFin = num2
+	Para i en (numIni...numFin) hacer
+		Escribe i
+Fin
